@@ -1,19 +1,102 @@
-body, h2 {
+
+.container {
+	width: 768px;
+	height: 1024px;
+	margin: 0 auto;
+	display: flex; 
+	flex-direction: row;
+}
+
+.font-edu{ /*This needs to be a left column*/
+	padding-top: 370px;
+	align-content: left;
+	order: -1; 
+}
+
+#font-describe{
+	width: 400px;
+}
+
+.pic-info{
+	display: flex;
+}
+
+#selfie{
+	width: 100px;
+	height: 100px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+#square-button{
+	width: 340px;
+	height: 330px;
+	background-color: rgba(197, 111, 111, .39);
+	z-index: 0;
+}
+
+#letterform{
+	font-size: 300pt;
+	font-weight: lighter;
+	position: relative;
+	top: -170px;
+	margin-left: -102px;
+	z-index: 1;
+}
+
+.box {
+	margin-left: auto;
+	margin-right: auto;
+	width: 491px;
+	padding: 100px;
+	position: relative;
+	top: 400px;
+}
+
+#font-name{
+	width: 300px;
+	height: 20px;
+}
+/*.letter-container {
+	width: 200px; --> not sure what this is for yet
+	display: flex;
+	align-items: baseline;
+}*/
+
+.right-column{
+	padding-top:512px;
+}
+
+#bio {
+	width: 200px;
+	height: 200px;
+}
+
+#sources {
+
+}
+
+#button {
+	width: 340;
+	height: 330;
+}
+
+h2{
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+}
+
+body {
 	font-family: 'Lato', sans-serif;}
 
- h1, h3 {
- 	font-family: 'Lemonada', cursive;
+ h1 {
+ 	font-family: 'Tajawal', sans-serif;
  	color: #494D53;}
 
- /* Style points to create:;
-1. a pink square, dead center. color: #DB8E8E;
-3. a big ش    in the middle, too. color: #494D53;
-size is 700 for Segoe UI (might change with new Lato);
-4. size 40 Font title and source (lemonada | google fonts);
-5. size 30, two rows of arabic letters below it.
-6. two size 20 paragraph below.
-7. 4,5,6 are all in a left column. 
-8. Lower third of right column: selfie and adjacent little bio
-( also size 20);
- */
+ h3 {
+ 	font-family: 'Tajawal', sans-serif;
+ 	color: black;
+ 	font-weight: lighter;
+ }
+ 
 
