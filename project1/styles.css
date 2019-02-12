@@ -8,7 +8,7 @@
 }
 
 .left-column {
-	padding-top: 930px;
+	padding-top: 541px;
 	align-content: left;
 	order: -1; 
 
@@ -50,8 +50,6 @@
 	margin-right: auto;
 	width: 491px;
 	padding: 100px;
-	position: relative;
-	top: 384px;
 }
 
 #font-name{
@@ -60,7 +58,7 @@
 }
 
 .right-column{
-	padding-top: 979px;
+	padding-top: 580px;
 }
 
 #bio {
