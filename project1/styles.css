@@ -34,6 +34,7 @@
 	margin-right: auto;
 	width: 491px;
 	padding: 100px;
+	position: absolute;
 }
 
 #square-button{
@@ -41,6 +42,7 @@
 	height: 330px;
 	background-color: rgba(197, 111, 111, .39);
 	z-index: 1;
+	position: relative;
 }
 
 .overlay{
@@ -51,6 +53,7 @@
 	height: 330px;
 	width:340px;
 	z-index: 2;
+	position: relative;
 }
 
 .box:hover .overlay{
@@ -64,6 +67,7 @@
 	top: -770px;				//THIS WORKS IN INSPECTOR BUT NOT HERE. WHY?
 	margin-left: -102px;
 	z-index: 30;
+	position: relative;
 }
 
 #font-name{
