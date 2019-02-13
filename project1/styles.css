@@ -36,23 +36,6 @@
 	z-index: 0;
 }
 
-.overlay {
-	position: asolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 330px;
-	width: 340px;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: #C56F6F;
-}
-
-.container:hover .overlay {
-	opacity: 1;
-}
-
 #letterform{
 	font-size: 300pt;
 	font-weight: lighter;
