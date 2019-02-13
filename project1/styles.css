@@ -34,7 +34,7 @@
 	margin-right: auto;
 	width: 491px;
 	padding: 100px;
-	position: relative;
+	position: absolute;
 }
 
 #square-button{
