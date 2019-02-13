@@ -60,13 +60,6 @@
 	opacity:1;
 }
 
-#analysis {
-	position: absolute;
-    z-index:20;
-    top: 43px;
-    left: 148px;
-}
-
 #letterform {
 	font-size: 300pt;
 	font-weight: lighter;
@@ -98,7 +91,6 @@
 #button {
 	width: 340;
 	height: 330;
-	z-index: 30;
 }
 
 h2{
