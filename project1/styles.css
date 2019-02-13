@@ -36,7 +36,14 @@
 	z-index: 1;
 }
 
-#letterform{
+.overlay{
+	background-color: #C56F6F;
+	position: absolute;
+	transition: .5s ease;
+	opacity: 0;
+}
+
+#letterform {
 	font-size: 300pt;
 	font-weight: lighter;
 	position: relative;
