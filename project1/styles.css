@@ -61,9 +61,9 @@
 	font-size: 300pt;
 	font-weight: lighter;
 	position: relative;
-	top: -170px;
+	top: -770px;
 	margin-left: -102px;
-	z-index: 0;
+	z-index: 30;
 }
 
 #font-name{
