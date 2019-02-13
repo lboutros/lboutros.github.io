@@ -46,7 +46,7 @@
 }
 
 .overlay{
-	background-color: #C69696;
+	background-color: #CBA5A5;
 	position: absolute;
 	transition: .5s ease;
 	opacity: 0;
@@ -56,7 +56,7 @@
 	position: relative;
 }
 
-.box:hover .overlay{
+.box:hover .overlay{   //colon after tag is a "pseudo class"
 	opacity:1;
 }
 
