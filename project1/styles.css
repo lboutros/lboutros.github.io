@@ -61,7 +61,7 @@
 	font-size: 300pt;
 	font-weight: lighter;
 	position: relative;
-	top: -770px;
+	top: -770px;				//THIS WORKS IN INSPECTOR BUT NOT HERE. WHY?
 	margin-left: -102px;
 	z-index: 30;
 }
