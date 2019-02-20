@@ -1,17 +1,63 @@
 
 .container {
-	width: 1260px;
+	width: 768px;
 	height: 1024px;
 	margin: 0 auto;
 	display: flex; 
 	flex-direction: row;
 }
 
-.left-column {
-	padding-top: 541px;
+.box {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -550px;
+	width: 491px;
+	padding: 100px;
+	position: relative;
+	top: 400px;
+}
+
+.analysis {
+/*	position: absolute;*/
+	z-index: 20;
+	top: -352px;
+	left: -56px;
+}
+
+#letterform {
+	font-size: 300pt;
+	font-weight: lighter;
+	position: relative;
+	top: -170px;
+	margin-left: -102px;
+	z-index: 1;
+}
+
+#pink-square {
+	width: 340px;
+	height: 330px;
+	background-color: rgba(197, 111, 111, .39);
+	z-index: 0;
+}
+
+#square-button {
+	z-index: 30;
+	height: 330px;
+	width: 340px;
+	position: relative;
+	top: -670px;
+}
+
+#font-name{
+	width: 300px;
+	height: 20px;
+}
+
+.left-column{ 
+	padding-top: 414px;
 	align-content: left;
 	order: -1; 
-
+	margin-left: -200px;
 }
 
 #font-describe{
@@ -29,59 +75,13 @@
 	padding-right: 20px;
 }
 
-.box {
-	margin-left: auto;
-	margin-right: auto;
-	width: 491px;
-	padding: 100px;
-	position: absolute;
-}
-
-#square-button{
-	width: 340px;
-	height: 330px;
-	background-color: rgba(197, 111, 111, .39);
-	z-index: 1;
-	position: relative;
-}
-
-.overlay{
-	background-color: #CBA5A5;
-	position: absolute;
-	transition: .5s ease;
-	opacity: 0;
-	height: 330px;
-	width:340px;
-	z-index: 2;
-	position: relative;
-}
-
-.box:hover .overlay{   //colon after tag is a "pseudo class"
-	opacity:1;
-}
-
-#letterform {
-	font-size: 300pt;
-	font-weight: lighter;
-	position: relative;
-	top: -770px;				//THIS WORKS IN INSPECTOR BUT NOT HERE. WHY?
-	margin-left: -102px;
-	z-index: 30;
-	position: relative;
-}
-
-#font-name{
-	width: 300px;
-	height: 20px;
-}
-
 .right-column{
-	padding-top: 580px;
+	padding-top:430px;
 }
 
 #bio {
 	width: 200px;
-	height: 133px;
+	height: 200px;
 }
 
 #sources {
