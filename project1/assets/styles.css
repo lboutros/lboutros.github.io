@@ -15,6 +15,7 @@
 	padding: 100px;
 	position: relative;
 	top: 400px;
+	transform: scale(0.7);
 }
 
 .analysis {
@@ -30,6 +31,7 @@
 	position: relative;
 	top: -170px;
 	margin-left: -102px;
+	margin-top: -50px;
 	z-index: 1;
 }
 
@@ -38,6 +40,24 @@
 	height: 330px;
 	background-color: rgba(197, 111, 111, .39);
 	z-index: 0;
+
+}
+
+#blank {
+	width: 340px;
+	height: 330px;
+	background-color: rgba(197,111,111,0);
+	z-index: 9999999999999;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	transition: all .2s ease-in;
+}
+
+#blank:hover{
+	background-color: rgba(197, 111, 111, .40);
+	transition: all .2s ease-in;
+	cursor: pointer;
 }
 
 #square-button {
@@ -48,16 +68,26 @@
 	top: -670px;
 }
 
+
+#hover-color:hover {
+	background-color: black;
+	height: 330px;
+	width: 340px;
+	position: relative:
+	z-index: 40px;
+}
+
 #font-name{
 	width: 300px;
 	height: 20px;
 }
 
 .left-column{ 
-	padding-top: 414px;
+	padding-top: 160px;
 	align-content: left;
 	order: -1; 
 	margin-left: -200px;
+	transform: scale(0.7);
 }
 
 #font-describe{
@@ -76,7 +106,9 @@
 }
 
 .right-column{
-	padding-top:430px;
+	padding-top:169px;
+	transform: scale(0.7);
+	margin-left: -105px;
 }
 
 #bio {
