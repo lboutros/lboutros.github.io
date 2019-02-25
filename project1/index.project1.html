@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="assets/styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="assets/jquery.cycle2.min.js"></script>
+	<script src="assets/code.js"></script>
 </head>
 
 <body>
@@ -16,12 +17,12 @@
 	<div class="container">
 		<div class="box">
 			<div id="blank"></div>
-				<div id="pink-square">
+				<div class="non-hover-color" id="pink-square">
 						<h1 id="letterform">ش    </h1>
 				</div>
 				<div class="cycle-slideshow analysis" data-cycle-timeout="0" data-cycle-next="#blank">
 					<img src="assets/empty-analysis.png" width="340" height="340" alt="an empty .png place holder file"  />
-					<img src="assets/letterform-analysis.png" width="340" height="340" alt="typographic analysis of the Tajawal letterform"/>
+					<img id= "analysis" src="assets/letterform-analysis.svg" width="340" height="340" alt="typographic analysis of the Tajawal letterform"/>
 					<!-- <img src="assets/letterform-analysis-vectorized.svg" alt="an empty .png place holder file"  /> -->
 				</div>
 				<div id="square-button"></div>
