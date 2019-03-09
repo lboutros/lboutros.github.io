@@ -1,0 +1,47 @@
+// Button to open a modal
+$(document).ready(function (){
+    //ID or Class name of the button goes into the first section
+    $('#button-what-is').click(function() {
+        //ID or Class name of the modal you want to appear on click goes into this second area.
+        $("#what-is-dyslexia-modal").toggleClass("visible");
+        });
+});
+
+// Button to close a modal
+$(document).ready(function (){
+    $('#button-what-is').click(function() {
+        $("#what-is-dyslexia-modal").toggleClass("visible")
+        });
+});
+
+// Button to open a modal
+$(document).ready(function (){
+    //ID or Class name of the button goes into the first section
+    $('#button-videos').click(function() {
+        //ID or Class name of the modal you want to appear on click goes into this second area.
+        $("#video-link-modal").toggleClass("visible");
+        });
+});
+
+// Button to close a modal
+$(document).ready(function (){
+    $('#button-videos').click(function() {
+        $("#video-link-modal").toggleClass("visible")
+        });
+});
+
+// Button to open a modal
+$(document).ready(function (){
+    //ID or Class name of the button goes into the first section
+    $('#button-articles').click(function() {
+        //ID or Class name of the modal you want to appear on click goes into this second area.
+        $("#articles-modal").toggleClass("visible");
+        });
+});
+
+// Button to close a modal
+$(document).ready(function (){
+    $('#button-articles').click(function() {
+        $("#articles-modal").toggleClass("visible")
+        });
+});
