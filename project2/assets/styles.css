@@ -5,7 +5,7 @@
 .__web-inspector-hideafter-shortcut__::after
 
 @font-face {
-	src: url(assets/fonts/leaguespartan-bold-webfont);
+	src: url(assets/leaguespartan-bold.woff);
     font-family: 'league_spartanbold';
 /*    src: url('leaguespartan-bold-webfont.woff2') format('woff2'),
          url('leaguespartan-bold-webfont.woff') format('woff');
@@ -192,8 +192,8 @@ font-size: 150pt;
 .exit-to-menu-button{
 	width: 50px;
 	height: 50px;
-	background-color: aquamarine;
-	margin-left: 1100px;
+/*	background-color: aquamarine;*/
+	margin-left:1200px;
 }
 
 .flex{
@@ -244,6 +244,8 @@ font-size: 150pt;
 	width: 150px;
 	height: 140px;
 	margin-left: 275px;
+	transform: scale(2);
+	margin-bottom: 23px;
 }
 
 .left-container{
