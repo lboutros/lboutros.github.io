@@ -1,0 +1,131 @@
+.analysis{
+	position: absolute;
+	z-index: 20;
+	top: 43px;
+	left:148px;
+}
+
+.boutros-main{
+	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	flex: 1;
+	font-size: 22px;
+	text-align: center;
+}
+
+#button {
+	z-index: 30;
+}
+
+.column{
+	float: left;
+}
+
+.container{
+
+}
+
+.dark-letterform{
+	margin-top: 472px;
+	margin-left: 135px;
+	transform: scale(1.5);
+}
+
+.flex{
+	display: flex;
+	padding-left: 0px;
+}
+
+.header-blank-space{
+	height:10px;
+}
+
+.index-bio{
+	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 140px;
+	font-size: 10vw;
+}
+
+.nav-bar-left{
+
+}
+
+.nav-bar-right{
+
+}
+
+#nav-button-about{
+	font-family: europa, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #676767;
+}
+
+#nav-button-contact{
+	font-family: europa, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-left: 20px;
+	font-size: 14px;
+	margin-right: 10px;
+	color: #676767;
+}
+
+#nav-button-resume{
+	font-family: europa, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #676767;
+
+}
+
+#nav-button-work{
+	font-family: europa, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-right: 20px;
+	font-size: 14px;
+	margin-left: 10px;
+	color: #000;
+}
+
+.row:after{
+	content: "";
+	clear: both;
+	display: table;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#project-1-photo{
+/*	width:255px;*/
+	width: max-width;
+	height:231px;
+	margin-left: 305px;
+	transform: scale(1.5);
+	margin-top: 30px;
+	padding-right: 20px;
+}
+
+#project-2-photo{
+	width:330px;
+	height:448px;
+	margin-left:47px;
+	transform: scale(1.2);
+	position: absolute;
+  	clip: rect(0px,330px,303px,0px);
+}
+
+
+ul {
+  list-style-type: none;
+}
