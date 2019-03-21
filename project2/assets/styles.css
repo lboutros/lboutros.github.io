@@ -24,6 +24,73 @@ font-size: 150pt;
     visibility: hidden !important;
 }
 
+.about-game{
+	width: 600px;
+	height:60px;
+	font-family: 'league_spartanbold', sans-serif;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 30pt;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.about-game-popup-container{
+	width:600px;
+	height:470px;
+	margin-left: 25%;
+/*	margin-top: 5%;*/
+	background-color: #FEE682;
+}
+
+.about-the-game-paragraph{
+	font-family: 'league_spartanbold', sans-serif;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 12pt;
+	text-align: left;
+	width: 550px;
+	margin-left: 15px;
+}
+
+.about-paragraph{
+	font-family: 'league_spartanbold', sans-serif;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 12pt;
+	text-align: left;
+	width: 550px;
+}
+
+.about-paragraph-container{
+	height: 400px;
+/*	background-color: yellow;*/
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+.about-popup-container{
+	width:600px;
+	height:500px;
+	margin-left: 25%;
+/*	margin-top: 5%;*/
+	background-color: #FEE682;
+}
+
+.about-the-game-title{
+	width: 600px;
+	height:60px;
+	font-family: 'league_spartanbold', sans-serif;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 30pt;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 #button-articles{
 	width: 411px;
     height: 79px;
@@ -188,16 +255,62 @@ font-size: 150pt;
 	margin-top: 79px;
 }
 
+.container-external-to-learn{
+	margin-top: 10px;
+}
+
+.definition-paragraph-container{
+	height: 400px;
+/*	background-color: yellow;*/
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+.definition-paragraph{
+	font-family: 'league_spartanbold', sans-serif;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 12pt;
+	text-align: left;
+	width: 550px;
+}
+
+.definition-popup-container{
+	width:600px;
+	height:500px;
+	margin-left: 25%;
+/*	margin-top: 5%;*/
+	background-color: #FEE682;
+}
 
 .exit-to-menu-button{
 	width: 50px;
 	height: 50px;
 /*	background-color: aquamarine;*/
-	margin-left:1200px;
+	margin-left:1000px;
+	margin-right: 25px;
+}
+
+.exit-popup-button{
+	width: 50px;
+	height: 50px;
+/*	background-color: aquamarine;*/
+	margin-left:50px;
+/*	margin-right: 25px;*/
+	margin-top: 15px;
+}
+
+.extra-left-margin{
+	margin-left: 1100px
 }
 
 .flex{
 	display:flex;
+}
+
+.full-menu-container{
+	margin-left: 115px;
 }
 
 .game-container{
@@ -240,6 +353,10 @@ font-size: 150pt;
 	color: black;
 }
 
+.intro-image{
+	border: 1px solid #F2D225;
+}
+
 .learn-icon{
 	width: 150px;
 	height: 140px;
@@ -269,11 +386,11 @@ font-size: 150pt;
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0, 0, 0, 0.8);
+/*    background-color: rgb(0, 0, 0, 0.8);*/
 }
 
 .modal-content {
-    background-color: #fefefe;
+/*    background-color: #fefefe;*/
     padding: 40px;
     border: 1px solid #888;
     width: 60%;
@@ -298,6 +415,7 @@ font-size: 150pt;
 	background-color: white;
 	height:95px;
 	margin-left: 74px;
+	width: 0px;
 }
 
 .skip-button{
@@ -320,7 +438,7 @@ font-size: 150pt;
 .tap-left-button{
 	width: 50px;
 	height: 50px;
-	background-color: aquamarine;
+/*	background-color: aquamarine;*/
 	margin-left:-54px;
 	margin-right: 20px;
 	margin-top: 80px;
@@ -339,6 +457,19 @@ font-size: 150pt;
 	margin-top: 100px;
 }
 
+.videos-container{
+	margin-left:360px;
+	margin-top: 100px;
+}
+
+.video-popup-container{
+	margin-top: -70px;
+}
+
+.videos-separate{
+	padding-bottom: 20px;
+}
+
 .video-title{
 /*	background-color: purple;*/
 	width: 560px;
@@ -351,13 +482,286 @@ font-size: 150pt;
 	color: grey;
 }
 
+.videos-title{
+	width: 560px;
+	font-family: 'league_spartanbold', sans-serif;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 12pt;
+	color: grey;
+	text-align: center;
+}
+
+.what-is-title{
+	width: 600px;
+	height:60px;
+	font-family: 'league_spartanbold', sans-serif;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 30pt;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .word-container{
 	width: 514px;
 	height: 227px;
 /*	background-color: purple;*/
 	margin-bottom: 28px;
+	margin-top: -42px;
 	font-family: 'league_spartanbold', sans-serif;
 	font-weight:bold;
 	font-style:normal;
 	font-size: 150pt;
+	margin-left: 11px;
+}
+
+/*******************************************************/
+/*Content styling of modal*/
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    background-color:white;
+    
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.baseball-cards {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.baseball-cards img {
+    width:250px;
+}
+
+.baseball-cards img:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+
+.modal-content img {
+    background-color:rgba(64, 82, 251, 0.1);
+}
+
+/************* Containers & Colors ************/
+.content_container,
+.content_completed {
+    height: 100vh;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.title h1 {
+    font-size: 31.2px;
+    font-weight: 100;
+    width: 200px;
+    letter-spacing: 4px;
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+
+a {
+    color: rgba(64, 82, 251, 0.4);
+    text-decoration: none;
+}
+
+.no-flex a {
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 30px;
+    color: rgba(64, 82, 251, 0.4);
+    display: block;
+}
+
+
+/************************ POP UP WINDOW *****************/
+
+/* The Modal (background) */
+.modal {
+    /* Visibility Hidden */
+    visibility: hidden;
+    /* Stay in place */
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* Sit on top */
+    z-index: 1;
+    /* Full width */
+    width: 100%;
+    /* Full height */
+    height: 100%;
+    /* Enable scroll if needed */
+    overflow: auto;
+    /* Background-color */
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 60%;
+/*     Could be more or less, depending on screen size */
+    position: absolute;
+    left: 16%;
+    top: 16%;
+    visibility: hidden;
+    z-index: 200;
+    display: flex;
+}
+
+/* Content styling of things in the Modal */
+
+.no-flex {
+    margin-left: 20px;
+}
+
+.modal-content h1 {
+    font-weight: 600;
+    font-size: 31.2px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.modal-content h2 {
+    font-weight: 100;
+    font-size: 20.8px;
+    margin-top: 10px;
+    color:#4052fb;
+}
+
+.modal-content h5 {
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.modal-content img {
+    height: 352px;
+}
+
+
+/* Modal Box Visibility */
+
+.visible {
+    visibility: visible!important;
+}
+
+a:hover {
+    color: black;
+    text-decoration:underline;
+}
+
+
+
+/**************** Helper Classes***************/
+.flex-box {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+/************ Buttons *************************/
+.button {
+    margin-top: 60px;
+    margin-right: 10px;
+    background-color: #d4e9f8;
+    height: 50px;
+    width: 110px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.done-button {
+    background-color: white;
+    height: 50px;
+    width: 160px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+.done-button:hover {
+    background-color: black;
+    color: white;
+}
+
+#button2_new {
+    width: 200px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    margin: 50px auto 0;
+}
+
+.round-button {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    z-index: 100;
+}
+
+.round-button:hover {
+    background-color: white;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(166, 207, 255);
+    text-decoration: none;
+    cursor: pointer;
 }
