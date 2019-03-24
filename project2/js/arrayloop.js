@@ -1,6 +1,9 @@
-var myStringArray = ["Hello","World"];
-    var arrayLength = myStringArray.length;
-    for (var i = 0; i < arrayLength; i++) {
-        console.log(myStringArray[i]);
-        //Do something
-    }
+var dolch = ["brown", "carry", "where", "three", "funny"]
+
+for(i = 0; i < dolch.length; i++){
+	if(dolch[i] = "carry"){
+		console.log(dolch[i])
+	}
+}
+
+// on click, go to next item in array
