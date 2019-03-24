@@ -628,7 +628,6 @@ a {
     color: rgba(64, 82, 251, 0.4);
     display: block;
 }
-*/
 
 /************************ POP UP WINDOW *****************/
 
@@ -638,12 +637,12 @@ a {
     padding: 40px;*/
     border: .5px solid #888;
     position: absolute;
-    left: 25%;
+/*    left: 25%;*/
     top: 16%;
     visibility: hidden;
     z-index: 200;
     display: flex;
-    margin-top: -604px;
+    margin-top: -18px;
     margin-left: 325px;
 }
 
