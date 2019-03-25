@@ -1,22 +1,53 @@
-var dolch = ["brown", "carry", "where", "three", "funny"]
 
-for(i = 0; i < dolch.length; i++){
-	if(dolch[i] = "carry"){
-		console.log(dolch[i])
+var dolch = ["brown", "carry", "where", "three", "funny"];
+
+var wordIndex = 1;
+
+function nextWord(){
+	$(".word-container").text(dolch[wordIndex]);
+	wordIndex++;
+	$("#button-game-feedback").val("check");
+	$("#button-spell").val("");
+	$(".tap-right-button").toggleClass("visible");
+	if(wordIndex == dolch.length){
+		wordIndex = 0;
 	}
 }
 
-// on click, go to next item in array
 
-////////////////////////////////////////// ARRAY LOOP /////////////////////////////////////
+function testRun(){
+	console.log("word");
+	var wordContainer = $(".word-container").text();
+	var wordSpelled = $("#button-spell").val();
+
+	if(wordContainer == wordSpelled){
+		$("#button-game-feedback").val("correct!");
+		$(".tap-right-button").toggleClass("visible");
+	}
+	else{
+		$("#button-game-feedback").val("try again!");
+
+	}
+}
 
 
-var dolch = ["brown", "carry", "where", "three", "funny"]
 
-$("#tap-right").click(
-		function(){
-			for(i = 0; i < dolch.length; i++){
-				if(dolch[i] = "brown"){
-				$(".word-container").text(dolch[i]);
-	});
-});
+
+
+// for(i = 0; i < dolch.length; i++){
+// 	if(dolch[i] = "carry"){
+// 		console.log(dolch[i])
+// 	}
+// }
+
+
+// ////////////////////////////////////////// ARRAY LOOP /////////////////////////////////////
+
+
+// $("#tap-right").click(
+// 		function(){
+// 			for(i = 0; i < dolch.length; i++){
+// 				if(dolch[i] = "brown"){
+// 				$(".word-container").text(dolch[i]);
+// 	});
+// });

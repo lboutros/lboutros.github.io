@@ -444,6 +444,7 @@ font-size: 130pt;
 	background-color: aquamarine;
 	margin-left:33px;
 	margin-top: 80px;
+	visibility: hidden;
 }
 
 .vertical-nav-elements{
@@ -548,6 +549,7 @@ font-size: 130pt;
 	font-style:normal;
 	font-size: 129pt;
 	margin-left: 11px;
+	text-align: center;
 }
 /*
 /*******************************************************/
