@@ -1,11 +1,12 @@
 
 var dolch = ["brown", "carry", "where", "three", "funny"];
+var audioNames = ['assets/pronunciation_en_brown.mp3', "assets/pronunciation_en_carry.mp3"]
 
-var wordIndex = 1;
+var wordIndex = 0;
 
 function nextWord(){
-	$(".word-container").text(dolch[wordIndex]);
 	wordIndex++;
+	$(".word-container").text(dolch[wordIndex]);
 	$("#button-game-feedback").val("check");
 	$("#button-spell").val("");
 	$(".tap-right-button").toggleClass("visible");
@@ -14,6 +15,11 @@ function nextWord(){
 	}
 }
 
+
+function playAudio(){
+	var audio = new Audio(audioNames[wordIndex]);
+	audio.play();	
+}
 
 function testRun(){
 	console.log("word");
