@@ -20,6 +20,18 @@
 				<img src="assets/noun_Home_730257.svg" alt="home button" width="70" height="70">
 			</a>
 		</div>
+
+			<div class="modal4"></div>
+<div class="modal4-content" id="game-objective-modal">
+<div class="game-popup-container">
+		<div class="how-to-play">how to play</div>
+		<div class="how-to-instructions">
+			1. listen to the word.<br>
+			2. spell out the word.<br>
+			3. check your spelling.
+		</div>
+</div>
+</div>
 	</div>
 	<div class="flex play-container">
 		<div class="left-container">
@@ -33,9 +45,8 @@
 			<div class="word-container">brown</div>
 		<div class="button-game-box">
 				<input type="submit" value="listen" name="listen" id="button-listen" onclick="playAudio()">
-				<!-- <div id="button-spell">spell</div> --><input type="text" name="spell" id="button-spell" placeholder="spell">
+				<input type="text" name="spell" id="button-spell" placeholder="spell">
 				<input type="submit" name="check" id="button-game-feedback" value="check" onclick="testRun()">
-				<!-- <div id="button-game-feedback">check</div> -->
 		</div>
 	</div>
 	<div class="right-container">
@@ -43,9 +54,13 @@
 					<img src="assets/arrow next cropped seuss orange.jpg" width="70" height="70">
 			</div>
 	</div>
+</div>
+</body>
 
 
 	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/arrayloop.js"></script>
-</body>
+    <script src="js/popup.js"></script>
+
 </html>
+<!---------------------------MODAL CONTENT ------------------------------------->

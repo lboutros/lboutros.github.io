@@ -40,16 +40,38 @@ $(document).ready(function(){
 	});
 });
 
+$(document).ready(function(){
+	$(".modal4").click(function(){
+		$("#game-objective-modal").toggleClass("invisible");
+		$(".modal4").toggleClass("invisible");	
+	});
+});
 
-////////////////////////////////////////// ARRAY LOOP /////////////////////////////////////
+$(document).ready(function() {
+	$('#button-colophon').click(function(){
+		$("#colophon-modal").toggleClass("visible");
+		$(".modal").toggleClass("visible");
+	});
+	});
 
+$(document).ready(function(){
+	$(".modal").click(function(){
+		$("#colophon-modal").toggleClass("visible");
+		$(".modal").toggleClass("visible");	
+	});
+});
 
-// var dolch = ["brown", "carry", "where", "three", "funny"]
+$(document).ready(function() {
+	$('#exit-to-play-button').click(function(){
+		$("#game-objective-modal-modal").toggleClass("visible");
+		$(".modal6").toggleClass("visible");
+	});
+	});
 
-// $("#tap-right").click(
-// 		function(){
-// 			for(i = 0; i < dolch.length; i++){
-// 				if(dolch[i] = "brown"){
-// 				$(".word-container").text(dolch[i]);
-// 	});
-// });
+$(document).ready(function(){
+	$(".modal6").click(function(){
+		$("#game-objective-modal").toggleClass("visible");
+		$(".modal6").toggleClass("visible");	
+	});
+});
+

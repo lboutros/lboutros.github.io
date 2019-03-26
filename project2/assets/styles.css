@@ -252,9 +252,44 @@ font-size: 130pt;
 }
 
 .colophon{
-	transform: scale(0.11);
-	margin-top: -400px;
-	margin-left: 750px;
+	position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.colophon-paragraph{
+	font-family: 'League Spartan', sans-serif;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 14pt;
+	text-align: left;
+	width: 550px;
+}
+
+.colophon-paragraph-container{
+	height: 400px;
+/*	background-color: yellow;*/
+	padding-top: 10px;
+	padding-left: 75px;
+	padding-right: 10px;
+}
+
+.colophon-popup-container{
+	width:552px;
+	height:361px;
+	background-color: #FEE682;
+}
+
+.colophon-title{
+	width: 550px;
+	height:60px;
+	font-family: 'League Spartan', sans-serif;
+	font-weight:bold;
+	font-style:normal;
+	font-size: 30pt;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .container {
@@ -340,8 +375,6 @@ font-size: 130pt;
 .game-popup-container{
 	width: 522px;
 	height: 336px;
-	margin-left: 30%;
-	margin-top: 5%;
 	background-color: #FEE682;
 }
 
@@ -352,9 +385,9 @@ font-size: 130pt;
 	font-family: 'League Spartan', sans-serif;
 	font-weight:bold;
 	font-style:normal;
-	font-size: 35pt;
+	font-size: 25pt;
 	text-align: left;
-	margin-left: 15px;
+	margin-left: 85px;
 	padding-top: 30px;
 	color: black;
 }
@@ -370,6 +403,26 @@ font-size: 130pt;
 	font-size: 50pt;
 	text-align: center;
 	color: black;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: 1px 1px 5px grey;
+  cursor: pointer;
+}
+
+input[type=submit]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: 1px 1px 5px grey;
+  cursor: pointer;
 }
 
 .intro-image{
@@ -392,8 +445,8 @@ font-size: 130pt;
 .learn-container {
 	height: 525px;
 	width: 681px;
-	margin-left: 270px;
-	margin-top: 45px;
+	margin-left: 273px;
+	margin-top: 24px;
 }
 
 .play-container {
@@ -401,7 +454,7 @@ font-size: 130pt;
 	height: 525px;
 	width: 700px;
 	margin-left: 25%;
-	margin-top: 45px;
+	margin-top: -10px;
 	transform: scale(1.05);
 }
 
@@ -487,7 +540,7 @@ font-size: 130pt;
 
 .video-popup-container{
 	margin-top: -75px;
-	margin-left:-179px;
+/*	margin-left:-179px;*/
 	width:660px;
 	height:2095px;
 /*	margin-left: 25%;*/
@@ -634,22 +687,22 @@ a {
 /************************ POP UP WINDOW *****************/
 
 
-.modal1-content {
+.modal-content {
 /*    background-color: #F0C366;
     padding: 40px;*/
-    border: .5px solid #888;
     position: absolute;
-/*    left: 25%;*/
+    left: 29.5%; 
     top: 16%;
     visibility: hidden;
     z-index: 200;
     display: flex;
-    margin-top: -18px;
-    margin-left: 325px;
+/*    margin-top: -18px;
+    margin-left: 325px;*/
+    box-shadow: 5px 5px 20px #888;
 }
 
 /* The Modal (background) */
-.modal1 {
+.modal {
     /* Visibility Hidden */
     visibility: hidden;
     /* Stay in place */
@@ -678,6 +731,9 @@ a {
     visibility: hidden;
     z-index: 200;
     display: flex;
+    left: 29.5%; 
+    top: 16%;
+
 }
 
 /* The Modal (background) */
@@ -732,6 +788,43 @@ a {
     background-color: rgb(0, 0, 0, 0.6);
 }
 
+.modal4-content {
+/*    background-color: #F0C366;
+    padding: 40px;*/
+    border: .5px solid #888;
+    position: absolute;
+/*    left: 25%;*/
+    top: 16%;
+    visibility: visible;
+    z-index: 200;
+    display: flex;
+    left: 29.5%; 
+    top: 16%;
+}
+
+/* The Modal (background) */
+.modal4 {
+    /* Visibility Hidden */
+    visibility: visible;
+    /* Stay in place */
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* Sit on top */
+    z-index: 1;
+    /* Full width */
+    width: 100%;
+    /* Full height */
+    height: 100%;
+    /* Enable scroll if needed */
+    overflow: auto;
+    /* Background-color */
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.invisible{
+	visibility: hidden !important;
+}
 
 /* Content styling of things in the Modal */
 
