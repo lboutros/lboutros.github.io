@@ -106,6 +106,7 @@ font-size: 130pt;
 	font-size: 40pt;
 	text-align: center;
 	background-color: #C6DCAD;
+	box-shadow: 1px 1px 5px #888;
 }
 /*
 #button-about a{
@@ -139,6 +140,7 @@ font-size: 130pt;
 	text-align: center;
 	background-color: #C6DCAD;
 	text-decoration: none;
+	padding-top: 0px;
 }
 
 #button-learn{
@@ -153,6 +155,7 @@ font-size: 130pt;
 	font-size: 40pt;
 	background-color: #A9DFE9;
 	text-align: center;
+	box-shadow: 1px 1px 5px #888;
 }
 
 #button-learn a{
@@ -179,6 +182,8 @@ font-size: 130pt;
 	font-size: 40pt;
 	text-align: center;
 	background-color: #F0C6C9;
+	box-shadow: 1px 1px 5px #888;
+	padding-top: 0px;
 }
 
 #button-play{
@@ -192,6 +197,7 @@ font-size: 130pt;
 	font-size: 40pt;
 	background-color: #A9DFE9;
 	text-align: center;
+	box-shadow: 1px 1px 5px #888;
 }
 
 #button-play a{
@@ -211,6 +217,7 @@ font-size: 130pt;
 	font-size: 40pt;
 	text-align: center;
 	background-color: #BBBBE1;
+	box-shadow: 1px 1px 5px #888;
 }
 
 #button-videos{
@@ -225,6 +232,7 @@ font-size: 130pt;
 	font-size: 40pt;
 	text-align: center;
 	background-color: #BBBBE1;
+	box-shadow: 1px 1px 5px #888;
 }
 
 #button-videos a{
@@ -244,6 +252,7 @@ font-size: 130pt;
 	font-size: 40pt;
 	text-align: center;
 	background-color: #F0C6C9;
+	box-shadow: 1px 1px 5px #888;
 }
 
 #button-what-is a{
@@ -357,6 +366,7 @@ font-size: 130pt;
 	position: fixed;
 	right: 0;
 	top: 118px;
+	box-shadow: 1px 1px 20px #000;
 }
 
 .flex{
@@ -405,6 +415,10 @@ font-size: 130pt;
 	color: black;
 }
 
+iframe{
+	box-shadow: 0px 1px 5px #888;
+}
+
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
@@ -413,6 +427,8 @@ input[type=text] {
   border: none;
   box-shadow: 1px 1px 5px grey;
   cursor: pointer;
+  border: 1px solid #7370BE;
+/*  border-radius: 4px;*/
 }
 
 input[type=submit]{
@@ -424,6 +440,7 @@ input[type=submit]{
   box-shadow: 1px 1px 5px grey;
   cursor: pointer;
 }
+
 
 .intro-image{
 	border: 1px solid #F2D225;
@@ -447,6 +464,10 @@ input[type=submit]{
 	width: 681px;
 	margin-left: 273px;
 	margin-top: 24px;
+}
+
+::placeholder {
+	color: #7370BE;
 }
 
 .play-container {
@@ -492,9 +513,10 @@ input[type=submit]{
 }
 
 .tap-right-button{
+	padding-left: 15px;
 	width: 50px;
 	height: 50px;
-	background-color: aquamarine;
+	/*background-color: aquamarine;*/
 	margin-left:33px;
 	margin-top: 80px;
 	visibility: hidden;
@@ -546,6 +568,7 @@ input[type=submit]{
 /*	margin-left: 25%;*/
 /*	margin-top: 5%;*/
 	background-color: #FEE682;
+	box-shadow: .5px .5px 20px #000;
 }
 }
 
@@ -592,7 +615,7 @@ input[type=submit]{
 }
 
 .word-container{
-	width: 514px;
+	width: 620px;
 	height: 227px;
 /*	background-color: purple;*/
 	margin-bottom: 28px;
@@ -698,7 +721,7 @@ a {
     display: flex;
 /*    margin-top: -18px;
     margin-left: 325px;*/
-    box-shadow: 5px 5px 20px #888;
+    box-shadow: 1px 1px 20px #000;
 }
 
 /* The Modal (background) */
@@ -721,18 +744,56 @@ a {
     background-color: rgb(0, 0, 0, 0.6);
 }
 
+.modal1-content {
+/*    background-color: #F0C366;
+    padding: 40px;*/
+    position: absolute;
+/*    left: 29.5%; 
+    top: 16%;*/
+    visibility: hidden;
+    z-index: 200;
+    display: flex;
+/*    margin-top: -18px;
+    margin-left: 325px;*/
+    box-shadow: 1px 1px 20px #000;
+    left: 27.5%;
+    top: 9%;
+}
+
+/* The Modal (background) */
+.modal1 {
+    /* Visibility Hidden */
+    visibility: hidden;
+    /* Stay in place */
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* Sit on top */
+    z-index: 1;
+    /* Full width */
+    width: 100%;
+    /* Full height */
+    height: 100%;
+    /* Enable scroll if needed */
+    overflow: auto;
+    /* Background-color */
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
 .modal2-content {
 /*    background-color: #F0C366;
     padding: 40px;*/
-    border: .5px solid #888;
     position: absolute;
     left: 27%;
     top: 11%;
     visibility: hidden;
     z-index: 200;
     display: flex;
-    left: 29.5%; 
-    top: 16%;
+    left: 27.5%; 
+    top: 9%;
+    box-shadow: 1px 1px 20px #000;
+    left: 27.5%;
+    top: 9%;
 
 }
 
@@ -759,13 +820,13 @@ a {
 .modal3-content {
 /*    background-color: #F0C366;
     padding: 40px;*/
-    border: .5px solid #888;
     position: absolute;
     left: 25%;
     top: 16%;
     visibility: hidden;
     z-index: 200;
     display: flex;
+    box-shadow: 1px 1px 20px #000;
 }
 
 /* The Modal (background) */
@@ -791,7 +852,6 @@ a {
 .modal4-content {
 /*    background-color: #F0C366;
     padding: 40px;*/
-    border: .5px solid #888;
     position: absolute;
 /*    left: 25%;*/
     top: 16%;
@@ -800,6 +860,7 @@ a {
     display: flex;
     left: 29.5%; 
     top: 16%;
+    box-shadow: 1px 1px 20px #000;
 }
 
 /* The Modal (background) */
