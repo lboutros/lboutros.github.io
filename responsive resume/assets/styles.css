@@ -93,7 +93,7 @@ p{
 }
 
 
-@media only screen and (min-width: 960px){
+/*@media only screen and (min-width: 960px){
 .flex{
 	display: flex;
 }
@@ -116,7 +116,6 @@ hr{
 
 .title-name h1{
 	font-size: 7.08rem;
-/*	margin-bottom: -1.99em;*/
 }
 
 h3{
@@ -148,7 +147,7 @@ p{
 	margin-right: 10em;
 	font-size: .9em;
 	margin-top: 1.5em;
-}
+}*/
 
 /*h1{
 	font-size: 11.25em;
