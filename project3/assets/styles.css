@@ -21,6 +21,7 @@
 
 .column{
 	float: left;
+	position: relative;
 }
 
 .container{
@@ -42,14 +43,16 @@
 	height:10px;
 }
 
-.index-bio{
+p.index-bio{
 	font-family: europa, sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 36px;
+	font-size: 2.25em;
 	text-align: center;
-	margin-top: 140px;
-	margin-bottom: 140px;
+	margin-top: 3em;
+	margin-bottom: 4em;
+	padding-right: .75em;
+	padding-left: .75em;
 }
 
 .nav-bar-left{
@@ -106,24 +109,61 @@
 }
 
 #project-1-photo{
-	width:255px;
-	height:231px;
-	margin-left: 305px;
-	transform: scale(1.5);
-	margin-top: 30px;
-	padding-right: 20px;
+	/*width:255px;*/
+	height:13em;
+	/*margin-left: 305px;*/
+	transform: scale(1.85);
+	margin-top: 3em;
+/*	padding-right: 20px;
+	*/
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+/*  	position: absolute;*/
 }
 
 #project-2-photo{
-	width:330px;
-	height:448px;
-	margin-left:47px;
-	transform: scale(1.2);
+	/*width:330px;*/
+	/*height:448px;*/
+	height: 13em;
+	/*margin-left:47px;*/
+	transform: scale(2.8);
+	margin-top:18em;
+	margin-left: 9.3em;
+	margin-right: auto;
+	
 	position: absolute;
   	clip: rect(0px,330px,303px,0px);
+
 }
 
 
 ul {
   list-style-type: none;
+}
+/*
+<!-- Tablet Styles -->
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	
+}*/
+
+<!-- Desktop Styles-->
+@media only screen and (min-width: 401px) {
+	p.index-bio {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.25em;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    padding-right: 7.75em;
+    padding-left: 6.75em;
+}
+
+body{
+	background-color: blue;
+}
+
 }
