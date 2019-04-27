@@ -111,6 +111,7 @@ p.index-bio{
 #project-1-photo{
 	/*width:255px;*/
 	height:13em;
+	width: 40%;
 	/*margin-left: 305px;*/
 	transform: scale(1.85);
 	margin-top: 3em;
@@ -138,6 +139,9 @@ p.index-bio{
 
 }
 
+#responsive{
+}
+
 
 ul {
   list-style-type: none;
@@ -160,10 +164,6 @@ ul {
     margin-bottom: 4em;
     padding-right: 7.75em;
     padding-left: 6.75em;
-}
-
-body{
-	background-color: blue;
 }
 
 }

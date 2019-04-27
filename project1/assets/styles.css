@@ -20,9 +20,9 @@
 
 .analysis {
 	z-index: 20;
-	top: -393px;
-	left: 50.9px;
-	transform: scale(1.76);
+	top: 2.9em;
+	left: -1.8em;
+	transform: scale(2);
 	position: relative;
 }
 
@@ -145,7 +145,7 @@ body {
 
  h1 {
  	font-family: 'Tajawal', sans-serif;
- 	color: #494D53;}
+ 	color: #111831;}
 
  h3 {
  	font-family: 'Tajawal', sans-serif;
