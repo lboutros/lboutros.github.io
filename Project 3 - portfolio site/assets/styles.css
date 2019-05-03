@@ -1,0 +1,985 @@
+/**************************************************/
+/******************** SITE FONTS ******************/
+/**************************************************/
+
+@font-face{
+	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/**************************************************/
+/******************** INDEX PAGE ******************/
+/**************************************************/
+a.email-index{
+	margin-left: 2em;
+    font-size: 1.5em;
+    padding-bottom: 2em;
+    color: blue;
+}
+
+.email-index{
+	margin-left: 12em;
+	color: blue;
+}
+
+.email-index:hover{
+	color: tomato;
+}
+
+.email-index{
+	margin-left: 5em;
+    font-size: 1.5em;
+    padding-bottom: 2em;
+    text-decoration: none;
+}
+
+.flex{
+	display: flex;
+	padding-left: 0px;
+}
+
+.index-bio{
+	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2.25em;
+	text-align: left;
+	margin-top: 3em;
+	margin-bottom: 4em;
+	padding-right: 2.75em;
+	padding-left: 1.75em;
+}
+
+main img{
+	width: 100%;
+	margin-top: -.3em;
+}
+
+.flex.project-container {
+	flex-direction: column;
+	width: 80vw;
+}
+
+
+main{
+	margin-top: -5em;
+	margin-left: 10%;
+}
+
+/**************************************************/
+/************* PROJ 1: LETTERFORM *****************/
+/**************************************************/
+
+section.page-width.low-detail img {
+	width: 64vw;
+    margin-left: 14%;
+}
+
+img.blown-up-dig-sketch-proj-1 {
+    transform: scale(1.4);
+}
+
+button {
+	background-color: white;
+  	border: none;
+}
+
+button:focus {
+	outline: 0;
+}
+
+button:hover {
+	color: tomato;
+}
+
+section img.final-letterform-img {
+	margin-left: 15%;
+	width: 60vw;
+}
+
+.font_choice_explanation{
+	font-weight: 700;
+	text-align: left;
+	margin-top: -5em;
+	padding-right: 3.75em;
+	padding-left: 4.75em;
+	color: #595959;
+	margin-top: -1em;
+}
+
+.font_choice_image{
+    margin-left: 2.5em;
+    margin-top: -4em;
+}
+
+section img.font_choice_image {
+	width: 70vw;
+}
+
+section.laurens-page {
+	width:  80vw;
+}
+
+section.laurens-page img {
+	width: 100%;
+}
+
+h1.projectheadsandsubheads{
+	font-weight: 700;
+	font-size: 2.25em;
+	text-align: left;
+	margin-top: 4em;
+	margin-bottom: 4em;
+	padding-right: .75em;
+	padding-left: 2em;
+}
+
+.projectheadsandsubheads{
+	font-weight: 700;
+	font-size: 2.25em;
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 4em;
+	padding-right: .75em;
+	padding-left: 2em;
+}
+
+.project-description{
+	font-weight: 700;
+	font-size: 1em;
+	text-align: left;
+	margin-top: -5em;
+	margin-bottom: 2em;
+	padding-right: 6.75em;
+	padding-left: 4.75em;
+	color: #00000060;
+}
+
+.show_design_process{
+	color:#0022FF;
+	font-weight: 700;
+	font-size: 1em;
+	text-align: left;
+	padding-left: 4.75em;
+	text-decoration: none;
+}
+
+div.proj1sketches-container {
+	width: 80vw;
+}
+
+.proj1sketches{
+    margin-bottom: 9em;
+    margin-top: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.proj1digsketches{
+	   transform: scale(0.3);
+    margin-left: -28em;
+    margin-top: -12em;
+    margin-bottom: -15em;
+}
+
+.proj1digsketches_main{
+	   transform: scale(0.5);
+    margin-left: -26em;
+    margin-top: -12em;
+    margin-bottom: -15em;
+}
+
+.proj1digwireframesonmac{
+	transform: scale(0.35);
+    margin-top: -21em;
+    margin-left: -42.5em;
+}
+
+.proj1prototypepic{
+    margin-left: 9em;
+    margin-top: 7em;
+    transform: scale(2.5);
+    margin-bottom: 2em;}
+
+/**************************************************/
+/******************** ABOUT ***********************/
+/**************************************************/
+
+.container{
+	display: block;
+	width: 60vw;
+}
+
+.container .aboutdescription {
+	width: 100%
+}
+
+.welcome-about{
+	font-weight: 700;
+	font-size: 2.25em;
+	margin-top: 3em;
+	margin-bottom: 4em;
+	padding-left: 16em;
+	color: black;
+	color: #000000;
+	margin-left: -14em;
+	margin-top: 4.2em;
+	margin-right: 4em;
+}
+
+.about-description{
+	font-size: 1em;
+	text-align: left;
+	color: #00000060;
+	font-weight: 700;
+	margin-left: 5em;
+	margin-top: 4em;
+	margin-bottom: 6em;
+}
+
+.container .profileLB{
+	margin-top: -6em;
+	height:85%;
+	margin-left: 5em;
+}
+
+.intouchcontainer {
+	margin-top: 2em;
+}
+
+.intouchcontainer{
+/*	margin-left: -5em;*/
+    margin-bottom: -.02em;
+}
+
+.intouchtext{
+	margin-left: 2em;
+    font-size: 1.5em;
+    padding-bottom: .3em;
+}
+
+.email-about{
+	margin-left: 2em;
+    font-size: 1.5em;
+    padding-bottom: 2em;
+    color: blue;
+}
+
+/**************************************************/
+/************* PROJECT 2: LEARN GAME ***************/
+/**************************************************/
+
+section.page-width img {
+	width: 80vw;
+	margin-left: 10%;
+}
+
+.no-margin {
+	font-weight: 700;
+    font-size: 1em;
+    text-align: left;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    padding-right: 6.75em;
+    padding-left: 4.75em;
+    color: #00000060;
+}
+
+img.hero-shots{
+	width: 80vw;
+	margin-left: 10%;
+	margin-top: 3em;
+}
+
+.projectheadsandsubheads.proj2-h1-responsive {
+	margin-top: 4em;
+}
+
+
+/**************************************************/
+/********************  TBD  ***********************/
+/**************************************************/
+.index-hover-container {
+  position: relative;
+  width: 50%;
+}
+
+.index-image-hover {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  margin-top: -.3em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00000055;
+}
+
+.index-hover-container:hover .overlay {
+  opacity: 1;
+}
+
+.index-image-overlay-text {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/**************************************************/
+/********************  TBD  ***********************/
+/**************************************************/
+
+
+.analysis{
+	position: absolute;
+	z-index: 20;
+	top: 43px;
+	left:148px;
+}
+
+.boutros-main{
+	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	flex: 1;
+	font-size: 22px;
+	text-align: center;
+}
+
+#button {
+	z-index: 30;
+}
+
+.column{
+	float: left;
+	position: relative;
+}
+
+.cell{
+	color: blue;
+	margin-left: 3em;
+	font-size: 1.5em;
+	padding-top: 2em;
+}
+
+.contact-page-be-in-touch{
+	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2.25em;
+	text-align: left;
+	margin-top: 4em;
+	margin-bottom: 2em;
+	margin-left: 2em;
+}
+
+.dark-letterform{
+	margin-top: 472px;
+	margin-left: 135px;
+	transform: scale(1.5);
+}
+
+.digimg_bio{
+	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1em;
+	text-align: left;
+	margin-top: -5em;
+	padding-right: 6.75em;
+	padding-left: 1.75em;
+	color: #595959;
+	margin-top: -15em;
+}
+
+
+.header-blank-space{
+	height:10px;
+}
+
+
+.nav-bar-left{
+
+}
+
+.nav-bar-right{
+
+}
+
+#nav-button-about{
+	font-family: europa, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #676767;
+}
+
+#nav-button-contact{
+	font-family: europa, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-left: 20px;
+	font-size: 14px;
+	margin-right: 10px;
+	color: #676767;
+}
+
+#nav-button-resume{
+	font-family: europa, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #676767;
+
+}
+
+#nav-button-work{
+	font-family: europa, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-right: 20px;
+	font-size: 14px;
+	margin-left: 10px;
+	color: #000;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.up{
+	margin-top: -3em;
+}
+
+.email{
+	margin-left: 3em;
+    font-size: 1.5em;
+    padding-bottom: 2em;
+    color: blue;
+}
+
+
+.email:hover{
+	color: tomato;
+}
+
+
+.PSDP_project_title{
+	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2.25em;
+	text-align: left;
+	margin-top: 3em;
+	margin-bottom: 4em;
+	padding-right: .75em;
+	padding-left: .75em;
+}
+
+.PSDP_description{
+	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1em;
+	text-align: left;
+	margin-top: -5em;
+	margin-bottom: 3em;
+	padding-right: .75em;
+	padding-left: 1.75em;
+	color: #00000060;
+}
+
+
+
+ul {
+  list-style-type: none;
+}
+
+
+/*HAMBURGER MENU*/
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Europa", "Europa", sans-serif;
+}
+
+ul#menu a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+ul#menu a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  margin-left: -1em;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #000000;
+/*  border-radius: 3px;*/
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: fixed;
+/*  width: 100%;*/
+  height: 28%;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ffffff;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+/************************************************
+*************************************************
+**************MEDIA QUERIES**********************
+*************************************************
+************************************************/
+
+
+@media only screen and (min-width: 401px) {
+
+
+.container .profileLB{
+	width: 60%;
+}
+
+p.index-bio {
+    text-align: left;
+    margin-top: 3em;
+    padding-right: 7.75em;
+    padding-left: 8.75em;
+}
+
+.email-index{
+	text-align: center;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
+.font_choice_image {
+	margin-top: -8em;
+}
+
+section.page-width.low-detail img {
+    width: 25vw;
+    margin-left: 19%;
+}
+
+.projectheadsandsubheads.letterform-responsive {
+	padding-left: 3em;
+}
+
+.show_design_process.show-letterform-responsive {
+	padding-left: 6.75em;
+}
+
+h1.projectheadsandsubheads {
+	padding-left: 2.9em;
+}
+
+.project-description {
+	padding-left: 6.75em;
+}
+
+.container .profileLB{
+	margin-left: -9em;
+}
+
+a.email-index{
+	margin-left: 2em;
+    font-size: 1.5em;
+    padding-bottom: 2em;
+    color: blue;
+    flex: wrap;
+}
+
+main div.flex{
+	display: flex;
+}
+
+section.laurens-page {
+	width: 60%;
+	margin: auto;
+}
+
+p.index-bio {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.25em;
+    text-align: left;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    padding-right: 5.75em;
+    padding-left: 8.75em;
+}
+
+.flex.project-container {
+	width: 80vw;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+main a {
+	width: 49%;
+}
+
+.up{
+	margin-top: -5em;
+}
+
+.bottom-skills{
+	margin-bottom: 8em;
+}
+
+.contact-info h5{
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	margin-left: 13.5em;
+}
+
+hr{
+	border: .4px solid black;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+h1{
+	font-family: 'europa', sans-serif;
+}
+
+h3{
+	font-family: 'europa', sans-serif;
+	font-size: 3.125em;
+	text-align: center;
+	color: #403E3E;
+	font-weight: 400;
+	margin-left: -2.4em;
+	margin-bottom: -.02em;
+	margin-right: 2em;
+}
+
+h4{
+	font-family: 'europa', sans-serif;
+	color: #403E3E90;
+	font-weight: 400;
+	text-align: center;
+	margin-left: -15.8em;
+	margin-right: 2em;
+	text-transform: uppercase;
+	font-size: .8em;
+	margin-top: 1.5em;
+}
+
+.mid-and-last-work{
+	margin-top: 4.5em;
+}
+
+ul{
+	margin-left: -16em;
+	font-size: .8em;
+	margin-right: 3em;
+}
+
+p{
+	color: #000000;
+	font-weight: 400;
+	margin-left: -15em;
+	margin-top: 4.2em;
+	margin-bottom: 6em;
+	margin-right: 5em;
+}
+
+.position{
+	font-style: italic;	
+	color: #403E3E90;
+	text-align: center;
+	margin-left: -13em;
+	margin-right: 4em;
+}
+
+.title-name h1{
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: 300;
+	color: #403E3E;
+}
+
+.about-description {
+	margin-top: -6em;
+}
+
+
+}
+
+@media only screen and (min-width: 960px){
+
+.font_choice_image {
+	margin-top: -8em;
+}
+
+section.page-width.low-detail img {
+    width: 25vw;
+    margin-left: 19%;
+}
+
+.projectheadsandsubheads.letterform-responsive {
+	padding-left: 3em;
+}
+
+.show_design_process.show-letterform-responsive {
+	padding-left: 6.75em;
+}
+
+h1.projectheadsandsubheads {
+	padding-left: 2.9em;
+}
+
+.project-description {
+	padding-left: 6.75em;
+}
+
+.contact-page-be-in-touch {
+	margin-top: 4em;
+    margin-left: 5.5em;
+}
+
+.container .profileLB {
+	padding-left: 8em;
+	width: 50%;
+}
+
+.welcome-about {
+	margin-left: -10.5em;
+    margin-top: 4em;
+}
+
+a.email-index {
+    margin-left: 8em;
+}
+
+.intouchtext {
+    margin-left: 8em;
+}	
+
+img.hero-shots {
+    width: 60vw;
+    margin-left: 16%;
+}	
+
+section.page-width img {
+    width: 60vw;
+    margin-left: 16%;
+}	
+
+.projectheadsandsubheads.proj2-h1-responsive {
+	padding-left: 5.5em;
+	padding-right: 6.75em;
+	margin-top: 4em;
+}
+
+.project-description.proj2-h3-responsive {
+	padding-left: 12.75em;
+	padding-right: 18.75em;
+}
+
+.projectheadsandsubheads.proj2-h2-responsive {
+	padding-left: 5.5em;
+}
+
+.show_design_process.show-responsive {
+	padding-left: 12.75em;
+}
+
+.up {
+	margin-top: 4em;
+	margin-left: 2em;
+}
+
+.container {
+	display: flex;
+}
+
+.about-description {
+	margin-top: -6em;
+}
+
+section img.final-letterform-img {
+	width: 50vw;
+}
+
+section.laurens-page {
+	width: 80%;
+	margin: auto;
+}
+
+ul{
+	margin-left: -2em;
+}l
+
+hr{
+	margin-left: 9em;
+	margin-right: 9em;
+}
+
+.index-bio {
+    padding-right: 6.75em;
+    padding-left: 8.75em;
+}
+}
+
